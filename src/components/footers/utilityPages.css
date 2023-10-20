@@ -1,0 +1,69 @@
+.utilityPage{
+    width: 25%;
+}
+.utilityHeading{
+color: #274C5B;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+@media(min-width:320px){
+    
+    .utilityHeading{
+      font-size: 12px;
+      font-weight: 600;
+     
+    }
+
+    .style,.password,.licence,.notFound,.changelog{
+        line-height: 2.0em;
+        font-size: 10px;
+        
+    }
+}
+
+
+
+@media(min-width:600px){
+    
+    .utilityHeading{
+      font-size: 24px;
+    }
+
+    .style,.password,.licence,.notFound,.changelog{
+        line-height: 2.7em;
+        font-size: 14px;
+       
+    }
+}
+
+
+@media(min-width:992px){
+  
+    .utilityHeading{
+      font-size: 28px;
+    }
+
+    .style,.password,.licence,.notFound,.changelog{
+        line-height: 3em;
+        font-size: 16px;
+    }
+}
+
+
+@media(min-width:1200px){
+    
+    .utilityHeading{
+      font-size: 32px;
+    }
+
+    .style,.password,.licence,.notFound,.changelog{
+        line-height: 3em;
+        font-size: 18px;
+    }
+}

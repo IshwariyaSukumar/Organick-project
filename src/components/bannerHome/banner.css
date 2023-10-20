@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.mainBanner{
+display: flex;
+height: 900px;
+background-color: white;
+margin-top: 69px;
+justify-content: center;
+}
+
+.bannerContent{
+width: 530px;
+margin-top: 250px;
+margin-left: 260px;
+}
+
+button{
+border-radius: 16px;
+background: #EFD372;
+color: #274C5B;
+width: 220px;
+height: 79px;
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+
+.bannerHeading{
+color: #68A47F;
+font-family: 'Yellowtail',cursive;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+}
+
+.bannerCaption{
+color: #274C5B;
+font-family: Roboto;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+@media(min-width:320px){
+.mainBanner{
+    margin-top: 20px;
+}
+.bannerContent{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 140px;
+    height: 60px;
+}
+.bannerHeading{
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    }
+    
+.bannerCaption{ 
+    font-size: 18px;   
+    font-weight: 700;
+    display: block;
+    
+    }
+
+    button{
+        width: 50px;
+        height: 20px;
+        font-size: 6px;
+        border-radius:8px;
+        border: none;
+    }
+    .bannerHome{
+        width: 160px;
+        height: 200px;
+        
+    }
+}
+
+@media(min-width:600px){
+    .mainBanner{
+        margin-top: 40px;
+    }
+
+    .bannerContent{
+        margin-left: 60px;
+        margin-top: 20px;
+        width: 165px;
+        height:100 px;
+    }
+
+    .bannerHeading{
+        font-size: 18px;
+        font-weight: 400;
+        display: block;
+    }
+        
+    .bannerCaption{ 
+        font-size: 24px;   
+        font-weight: 700;
+        display: block;    
+    }
+    
+    button{
+            width: 80px;
+            height: 30px;
+            font-size: 8px;
+            border-radius:10px ;
+            border: none;
+    }
+
+    .bannerHome{
+            width: 320px;
+            height: 270px;
+            margin-left: 30px;    
+    }
+
+    }
+
+    @media(min-width:768px){
+        .mainBanner{
+            margin-top: 50px;
+        }
+        .bannerContent{
+            margin-left: 80px;
+            margin-top: 20px;
+            width: 250px;
+            height:150 px;
+        }
+        .bannerHeading{
+            font-size: 24px;
+            font-weight: 400;
+            display: block;
+            }
+            
+        .bannerCaption{
+            
+            font-size: 36px;   
+            font-weight: 700;
+            display: block;
+            
+            }
+        
+            button{
+                width: 100px;
+                height: 40px;
+                font-size: 12px;
+                border-radius:10px ;
+                border: none;
+            }
+            .bannerHome{
+                width: 370px;
+                height: 350px;
+                margin-left: 30px;
+                
+            }
+        }
+
+        @media(min-width:992px){
+            .mainBanner{
+                margin-top: 50px;
+                height: 1000px;
+            }
+            .bannerContent{
+                margin-left: 100px;
+                margin-top: 20px;
+                width: 300px;
+                height:350px;
+            }
+            .bannerHeading{
+                font-size: 28px;
+                font-weight: 400;
+                display: block;
+                }
+                
+            .bannerCaption{
+                
+                font-size: 44px;   
+                font-weight: 700;
+                display: block;
+                
+                }
+            
+                button{
+                    width: 130px;
+                    height: 50px;
+                    font-size: 16px;
+                    border-radius:10px ;
+                    border: none;
+                }
+                .bannerHome{
+                    width: 470px;
+                    height: 400px;
+                    margin-left: 50px;
+                    
+                }
+            }
+
+            @media(min-width:1200px){
+                .mainBanner{
+                    margin-top: 60px;
+                    
+                }
+                .bannerContent{
+                    margin-left: 120px;
+                    margin-top: 20px;
+                    width: 380px;
+                    height:400px;
+                }
+                .bannerHeading{
+                    font-size: 32px;
+                    font-weight: 400;
+                    display: block;
+                    }
+                    
+                .bannerCaption{
+                    
+                    font-size: 56px;   
+                    font-weight: 700;
+                    display: block;
+                    
+                    }
+                
+                    button{
+                        width: 170px;
+                        height: 70px;
+                        font-size: 20px;
+                        border-radius:12px ;
+                        border: none;
+                    }
+                    .bannerHome{
+                        width: 580px;
+                        height: 510px;
+                        margin-left: 60px;
+                        
+                    }
+                }

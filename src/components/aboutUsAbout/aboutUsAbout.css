@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.aboutUsAbout{
+    margin-top: 50px;
+    display: flex;
+}
+
+.aboutUsAboutHead{
+color: #7EB693;
+font-family: 'Yellowtail',cursive;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.healthyBowlAbout{
+    width: 200px;
+    height: 200px;
+}
+
+.aboutUsAboutSubHead{
+color: #274C5B;
+font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.tractor,.chemicalPlant{
+    display: flex;
+}
+.aboutUsAboutPara1,.aboutUsAboutPara2{
+color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; 
+}
+
+.tractorCaption,.chemicalPlantCaption{
+color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.exploreBtn{
+border-radius: 16px;
+background: #274C5B;
+padding: 28px 39px 29px 39px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: white;
+}
+
+
+
+
+@media(min-width:320px){
+.healthyBowlAbout{
+    width: 150px;
+    height: 180px;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+
+.aboutUsAboutHead{
+    font-size: 16px;
+    line-height: 50%;
+}
+
+.aboutUsAboutSubHead{
+    font-size: 18px;  
+}
+
+.aboutUsAboutPara1,.aboutUsAboutPara2{
+    line-height: 0.9em;
+    font-size: 10px;
+    display: block;
+}
+
+.tractorIcon,.chemicalPlantIcon{
+    width: 30px;
+    height: 30px;
+}
+
+.tractorCaption,.chemicalPlantCaption{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.exploreBtn{
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+}
+
+@media(min-width:600px){
+    .aboutUsAboutContent{
+        margin-left: 10px;
+    }
+    .healthyBowlAbout{
+        width: 170px;
+        height: 220px;
+        margin-left: -10px;
+        margin-top: 30px;
+    }
+    
+    .aboutUsAboutHead{
+        font-size: 18px;
+        line-height: 50%;
+    }
+    
+    .aboutUsAboutSubHead{
+        font-size: 20px;  
+    }
+    
+    .aboutUsAboutPara1,.aboutUsAboutPara2{
+        line-height: 1.2em;
+        font-size: 12px;
+        display: block;
+    }
+    
+    .tractorIcon,.chemicalPlantIcon{
+        width: 35px;
+        height: 35px;
+    }
+    
+    .tractorCaption,.chemicalPlantCaption{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    
+    .exploreBtn{
+        padding: 6px 8px;
+        border-radius: 5px;
+    }
+    }
+
+
+@media(min-width:768px){
+    .aboutUsAboutContent{
+        margin-left: 20px;
+        
+    }
+
+    .healthyBowlAbout{
+        width: 250px;
+        height: 280px;
+        margin-left: -10px;
+        margin-top: 30px;
+    }
+        
+    .aboutUsAboutHead{
+        font-size: 20px;
+        line-height: 50%;
+    }
+        
+    .aboutUsAboutSubHead{
+        font-size: 24px;  
+    }
+        
+    .aboutUsAboutPara1,.aboutUsAboutPara2{
+        line-height: 1.2em;
+        font-size: 14px;
+        display: block;
+        width: 450px;
+    }
+        
+    .tractorIcon,.chemicalPlantIcon{
+        width: 40px;
+        height: 40px;
+    }
+        
+    .tractorCaption,.chemicalPlantCaption{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+        
+    .exploreBtn{
+        padding: 8px 10px;
+        border-radius: 5px;
+    }
+}
+
+
+@media(min-width:992px){
+    .aboutUsAboutContent{
+        margin-left: 20px;
+        
+    }
+
+    .healthyBowlAbout{
+        width: 300px;
+        height: 320px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+        
+    .aboutUsAboutHead{
+        font-size: 24px;
+        line-height: 50%;
+    }
+        
+    .aboutUsAboutSubHead{
+        font-size: 28px;  
+    }
+        
+    .aboutUsAboutPara1,.aboutUsAboutPara2{
+        line-height: 1.2em;
+        font-size: 18px;
+        display: block;
+        width: 600px;
+    }
+        
+    .tractorIcon,.chemicalPlantIcon{
+        width: 45px;
+        height: 45px;
+    }
+        
+    .tractorCaption,.chemicalPlantCaption{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+        
+    .exploreBtn{
+        padding: 12px 14px;
+        border-radius: 5px;
+    }
+}
+
+
+@media(min-width:1200px){
+    .aboutUsAboutContent{
+        margin-left: 20px;
+        
+    }
+
+    .healthyBowlAbout{
+        width: 400px;
+        height: 450px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+        
+    .aboutUsAboutHead{
+        font-size: 28px;
+        line-height: 50%;
+    }
+        
+    .aboutUsAboutSubHead{
+        font-size: 36px;  
+    }
+        
+    .aboutUsAboutPara1,.aboutUsAboutPara2{
+        line-height: normal;
+        font-size: 18px;
+        display: block;
+        width: 700px;
+    }
+     
+    .iconWithCaption{
+        display: flex;
+        margin-top: 30px;
+    }
+    .chemicalPlant{
+        margin-left: 20px;
+    }
+    .tractorIcon,.chemicalPlantIcon{
+        width: 50px;
+        height: 50px;
+    }
+        
+    .tractorCaption,.chemicalPlantCaption{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+        
+    .exploreBtn{
+        padding: 16px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}

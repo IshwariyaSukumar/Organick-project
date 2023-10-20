@@ -1,0 +1,70 @@
+.bannerShopSingle{
+    background-image: url('../../images/shopSingleBanner.png');
+    width: auto;
+}
+
+
+.shopSingleHead{
+    color: #274C5B;
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center; 
+    
+}
+
+@media(min-width:320px){
+    .shopSingleHead{
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    .bannerShopSingle{
+        height: 100px;
+        background-size: 100% 100px;
+    }
+}
+
+@media(min-width:600px){
+    .shopSingleHead{
+        font-size: 24px;
+        padding-top: 60px;
+    }
+    .bannerShopSingle{
+        height: 150px;
+        background-size: 100% 150px;
+    }
+}
+
+
+@media(min-width:768px){
+    .shopSingleHead{
+        font-size: 28px;
+        padding-top: 80px;
+    }
+    .bannerShopSingle{
+        height: 200px;
+        background-size: 100% 200px;
+    }
+}
+
+@media(min-width:992px){
+    .shopSingleHead{
+        font-size: 36px;
+        padding-top: 90px;
+    }
+    .bannerShopSingle{
+        height: 220px;
+        background-size: 100% 220px;
+    }
+}
+
+
+@media(min-width:1200px){
+    .shopSingleHead{
+        font-size: 40px;
+        padding-top: 110px;
+    }
+    .bannerShopSingle{
+        height: 250px;
+        background-size: 100% 250px;
+    }
+}

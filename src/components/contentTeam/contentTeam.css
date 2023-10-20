@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;700&family=Yellowtail&display=swap');
+
+
+.contentTeam{
+    width: 70%;
+   margin-left: 15%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.contentTeamHead{
+    color: hsl(142, 28%, 60%);
+    font-family: 'Yellowtail';
+    font-weight: 400;
+}
+
+.contentTeamSubHead{
+    color: #274C5B;
+    font-family: 'Roboto';
+}
+
+.contentTeamPara{
+    color: #525C60;
+    font-family: 'Open Sans';
+}
+
+@media(min-width:320px){
+    .contentTeamPara{
+        font-size: 10px;
+    }
+}
+
+
+
+@media(min-width:600px){
+    .contentTeamHead{
+        font-size: 24px;
+    }
+    .contentTeamSubHead{
+        font-size: 24px;
+    }
+    .contentTeamPara{
+        font-size: 12px;
+    }
+}
+
+
+
+@media(min-width:768px){
+    .contentTeamHead{
+        font-size: 28px;
+    }
+    .contentTeamSubHead{
+        font-size: 28px;
+    }
+    .contentTeamPara{
+        font-size: 14px;
+    }
+}
+
+
+
+@media(min-width:992px){
+    .contentTeamHead{
+        font-size: 30px;
+    }
+    .contentTeamSubHead{
+        font-size: 34px;
+    }
+    .contentTeamPara{
+        font-size: 16px;
+    }
+}
+
+
+
+@media(min-width:1200px){
+    .contentTeamHead{
+        font-size: 36px;
+    }
+    .contentTeamSubHead{
+        font-size: 36px;
+    }
+    .contentTeamPara{
+        font-size: 18px;
+    }
+}

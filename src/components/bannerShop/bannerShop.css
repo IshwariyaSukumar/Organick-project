@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&family=Yellowtail&display=swap');
+
+
+
+.bannerShop{
+   width: auto;
+   display: flex;
+   background-image: url(../../images/shopBanner.png);
+   text-align: center;
+   justify-content: center;
+    
+}
+
+.bannerShopHead{
+  
+   color: #274C5B;
+   font-family: 'Roboto';
+}
+
+@media(min-width:320px){
+.bannerShop{
+        margin-top: 30px;
+        height: 100px;
+}
+   
+.shopBanner1,.shopBanner2{
+    width: 320px;
+   
+    background-size: 320px px;
+}
+.bannerShopHead{
+    font-size: 28px;
+}
+}
+
+
+@media(min-width:600px){
+    .bannerShop{
+        margin-top: 30px;
+        padding-top: 70px;
+       height: 150px;
+    }
+   
+.shopBanner1,.shopBanner2{
+    width: 600px;
+    background-size: 600px;
+}
+.bannerShopHead{
+    font-size: 32px;
+
+}
+}
+
+
+@media(min-width:992px){
+    .bannerShop{
+        margin-top: 30px;
+        padding-top: 70px;
+       height: 200px;
+    }
+   
+.shopBanner1,.shopBanner2{
+    width: 992px;
+    background-size:500px;
+}
+.bannerShopHead{
+    font-size: 48px;
+
+}
+}

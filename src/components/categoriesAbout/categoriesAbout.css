@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&family=Yellowtail&display=swap');
+
+.categoriesAbout{
+    background-color: #274C5B;
+    width: auto;
+}
+.categoriesAboutHead{
+    color: #7EB693;
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.categoriesAboutSubHead{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+.categoriesAbout figure{
+    color: white;
+    text-align: center;
+}
+
+@media(min-width:320px){
+   .categoriesAbout{
+    padding-top: 40px;
+    padding-bottom: 80px;
+   }
+    .categoriesAboutHead{
+        font-size: 24px; 
+       
+    }
+    .categoriesAboutSubHead{
+        font-size: 28px;
+        font-weight: 800px;
+    }
+    .categoriesAbout img{
+       
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+    }
+    
+}
+
+
+
+@media(min-width:600px){
+    .categoriesAbout{
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    
+    .categoriesAboutHead{
+        font-size: 24px;
+        margin-bottom: 30px; 
+       
+    }
+    .categoriesAboutSubHead{
+        font-size: 28px;
+        font-weight: 800px;
+    }
+    .categoriesAbout img{
+        width: 120px;
+        height: 120px; 
+    }
+    .spicyFig{
+        margin-left: 20px;
+    }
+    .nutsFig,.fruitsFig,.vegetablesFig{
+        margin-left: -20px;
+    }
+    .productCategoriesAbout{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+@media(min-width:768px){
+    .categoriesAbout{
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    
+    .categoriesAboutHead{
+        font-size: 24px;
+        margin-bottom: 30px; 
+       
+    }
+    .categoriesAboutSubHead{
+        font-size: 28px;
+        font-weight: 800px;
+    }
+    .categoriesAbout img{
+        width: 140px;
+        height: 140px; 
+    }
+    .spicyFig{
+        margin-left: 20px;
+    }
+    .nutsFig,.fruitsFig,.vegetablesFig{
+        margin-left: 0px;
+    }
+    .productCategoriesAbout{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+
+
+
+
+@media(min-width:992px){
+    .categoriesAbout{
+        width: auto;
+        padding-top: 50px;
+        padding-bottom: 120px;
+    }
+    
+    .categoriesAboutHead{
+        font-size: 28px;
+        margin-bottom: 30px; 
+       
+    }
+
+    .categoriesAboutSubHead{
+        font-size: 36px;
+        font-weight: 800px;
+    }
+
+    .categoriesAbout img{
+        width: 180px;
+        height: 180px; 
+    }
+
+    .spicyFig{
+        margin-left: 20px;
+    }
+
+    .nutsFig,.fruitsFig,.vegetablesFig{
+        margin-left: 0px;
+    }
+
+    .productCategoriesAbout{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

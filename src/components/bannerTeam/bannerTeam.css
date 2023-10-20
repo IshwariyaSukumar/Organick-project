@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&family=Yellowtail&display=swap');
+
+
+.bannerTeam{
+    background-image: url(../../images/teamBanner.png);
+    width: auto;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+.bannerTeam h2{
+   color: #274C5B;
+    font-family: 'Roboto';
+}
+
+@media(min-width:320px){
+    .bannerTeam{
+        background-size: auto 150px;
+        height: 150px;
+        padding-top: 40px;
+    }
+    .bannerTeam h2{
+        font-size: 28px;
+    }
+}
+
+@media(min-width:600px){
+    .bannerTeam{
+        background-size: 992px auto;
+        height: 200px;
+        padding-top: 50px;
+    }
+    .bannerTeam h2{
+        font-size: 36px;
+    }
+}
+
+
+@media(min-width:992px){
+    .bannerTeam{
+        background-size: 1300px auto;
+        height: 250px;
+        padding-top: 50px;
+    }
+    .bannerTeam h2{
+        font-size: 48px;
+    }
+}

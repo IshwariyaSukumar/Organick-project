@@ -1,0 +1,31 @@
+
+.aboutUsHome{
+   display: flex;
+   width: auto;
+   
+}
+
+.aboutUsHomeHead{
+    color: #7EB693;
+    font-family: 'Yellowtail';
+    font-weight: 400;
+}
+
+.aboutUsHomeSubHead,.organic,.quality{
+    color: #274C5B;
+    font-family: 'Roboto';
+}
+
+.aboutUsHomePara,.organicPara,.qualityPara{
+    color: #525C60;
+    font-family: 'Open Sans';
+}
+
+.shopNowBtn{
+    background-color: #274C5B;
+    color: white;
+}
+
+@media(min-width:320px){
+
+}

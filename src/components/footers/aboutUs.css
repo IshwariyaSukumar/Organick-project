@@ -1,0 +1,216 @@
+.aboutUsFooter{
+  width: 30%;
+  margin-top: 4%;
+}
+.title{
+    text-align: center;
+    color: #274C5B;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.aboutUsFooterContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUsFooterPara{
+color: #525C60;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; 
+text-align: center;
+}
+
+.aboutUsFooterHead{
+display: flex;
+justify-content: center;
+}
+
+.mainLogo{
+  justify-content: center;
+}
+.logos{
+  display: flex;
+  column-gap: 2%;
+}
+.instaLogo,.fbLogo,.twiterLogo,.pinterestLogo{
+   
+   width: 60px;
+   height: 60px;
+  
+}
+
+
+
+
+@media(min-width:320px){
+ 
+
+  .mainLogo{
+    width: 16px;
+    height: 33px;
+   
+}
+
+  .title{
+    
+    font-size: 12px;
+}
+
+ .aboutUsFooterPara{
+   
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 150%; 
+    text-align: start;
+   
+}
+
+ .fbLogo,.twiterLogo,.pinterestLogo,.instaLogo{
+  
+   width: 20px;
+   height: 20px;
+   
+}
+
+}
+
+
+
+@media(min-width:600px){
+   
+  
+    .mainLogo{
+      width: 26px;
+      height: 43px;  
+  }
+  
+    .title{
+      font-size: 24px;
+    }
+  
+   .aboutUsFooterPara{
+     
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 160%; 
+      text-align: start;
+     
+  }
+  
+   .fbLogo,.twiterLogo,.pinterestLogo,.instaLogo{
+     width: 30px;
+     height: 30px;
+     
+  }
+  
+  }
+
+
+
+  @media(min-width:768px){
+  
+  
+    .mainLogo{
+      width: 26px;
+      height: 43px;
+  }
+  
+    .title{
+      font-size: 24px;
+    }
+  
+   .aboutUsFooterPara{
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 180%; 
+      text-align: start;
+  }
+  
+   .fbLogo,.twiterLogo,.pinterestLogo,.instaLogo{
+     width: 35px;
+     height: 35px;
+  }
+  
+  }
+
+
+
+
+  @media(min-width:992px){
+   
+    .mainLogo{
+      width: 36px;
+      height: 50px;
+     
+  }
+  
+    .title{
+      font-size: 28px;
+  }
+  
+   .aboutUsFooterPara{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 200%; 
+     
+  }
+  
+   .fbLogo,.twiterLogo,.pinterestLogo,.instaLogo{
+    
+     width: 40px;
+     height: 40px;
+     
+  }
+  
+  
+  }
+
+
+
+  @media(min-width:1200px){
+    .aboutUsFooter{
+      margin-left: 70px;
+      width: 350px;
+  }
+  
+    .mainLogo{
+      width: 36px;
+      height: 50px;
+      margin-left: 20px;  
+  }
+  
+    .title{
+      margin-left: 5px;
+      font-size: 32px;
+  }
+  
+   .aboutUsFooterPara{
+      margin-top: 60px;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 200%; 
+      margin-left: 20px;
+      text-align: start;
+      width: 300px;
+  }
+  
+   .fbLogo,.twiterLogo,.pinterestLogo{
+     margin-top: 10px;
+     width: 50px;
+     height: 50px;
+     margin-left: 10px;
+  }
+  
+   .instaLogo{
+      margin-top: 10px;
+      width: 50px;
+      height: 50px;
+      margin-left: 30px;
+  }
+  
+  }

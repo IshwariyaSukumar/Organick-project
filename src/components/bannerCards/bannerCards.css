@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;700&family=Yellowtail&display=swap');
+
+.bannerCard{
+display: flex;
+justify-content: center;
+}
+
+.bannerCard> div{
+width: 680px;
+height: 365px;
+border-radius: 20px;
+}
+
+.card1{
+background-image: url('../../images/bannerCard1.jpg');   
+}
+
+ .card1Head,.card2Head{
+font-family: 'Yellowtail', cursive;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 5%;
+}
+
+.card1 .card1Head{
+color: #FFF;
+}
+
+.card2 .card2Head{
+color: #7EB693;
+}
+.card1Content , .card2Content{
+font-family: 'Roboto',sans-serif;
+font-size: 40px;
+display: inline;
+margin-left: 5%;
+
+}
+
+.card1 .card1Content{
+color: #FFF;
+font-weight: 700;
+
+}
+.card2 .card2Content{
+color: #274C5B;
+font-weight: 700;
+}
+
+.card2{
+background-image: url('../../images/bannerCard2.jpg');
+margin-left: 3%;
+
+}
+
+
+@media (min-width:320px) {
+   
+    .bannerCard> div{
+        width: 130px;
+        height: 85px;
+        border-radius: 5px;
+    }
+    .card1,.card2{
+        background-size: 130px 85px;
+    }
+    
+    .card1Content , .card2Content{
+        font-size: 10px;
+        font-weight: 300;
+        width: 30px;  
+    }
+    .card1Head,.card2Head{
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width:600px) {
+  
+    .bannerCard> div{
+        width: 220px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .card1,.card2{
+        background-size: 220px 100px;
+    }
+   
+    .card1Content , .card2Content{
+        font-size: 14px; 
+    }
+    .card1Head,.card2Head{
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width:768px) {
+    
+    .bannerCard> div{
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .card1,.card2{
+        background-size: 320px 150px;
+    }
+    
+    .card1Content , .card2Content{
+        font-size: 16px; 
+    }
+    .card1Head,.card2Head{
+        font-size: 22px;
+    }
+}
+
+
+@media (min-width:992px) {
+   
+    .bannerCard> div{
+        width: 400px;
+        height: 180px;
+        border-radius: 10px;
+    }
+    .card1,.card2{
+        background-size: 400px 180px;
+    }
+    
+    .card1Content , .card2Content{
+        font-size: 20px; 
+    }
+    .card1Head,.card2Head{
+        font-size: 28px;
+    }
+}
+
+
+@media (min-width:1200px) {
+    
+    .bannerCard> div{
+        width: 500px;
+        height: 250px;
+        border-radius: 12px;
+    }
+    .card1,.card2{
+        background-size: 500px 250px;
+    }
+   
+    .card1Content , .card2Content{
+        font-size: 28px; 
+    }
+    .card1Head,.card2Head{
+        font-size: 36px;
+      
+    }
+}

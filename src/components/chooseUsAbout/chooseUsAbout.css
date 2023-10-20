@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+.chooseUs{
+    display: flex;
+    flex: 1 1;
+}
+
+.chooseUsAboutHead{
+color: #7EB693;
+font-family: 'Yellowtail',cursive;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.naturalProduct,.resistance{
+    background-color:#ECECEC;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    text-align: center;
+   
+}
+
+.chooseUsSubHead{
+color: #274C5B;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3,.naturalProductCaption,.resistanceCaption{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;  
+}
+
+.chooseUsImg{
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.chooseUsCards{
+    display: flex;
+    background-color: #F9F8F8;
+}
+.fresh,.security,.support,.return{
+    background-color: white;
+    text-align: center;
+    width: 180px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.return{
+    margin-left: 170px;
+}
+
+
+
+
+@media(min-width:320px){
+    .chooseUs{
+        margin-left: 10px;
+    }
+
+    .chooseUsAboutHead{
+        font-size: 18px;   
+    }
+
+  .chooseUsSubHead{
+    font-size:14px ;
+    font-weight: 600;
+  }
+
+  .chooseUsAboutContent{
+    width: 130px;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 10px;
+    line-height: 100%;
+  }
+
+  .chooseUsImg{
+    margin-top: 70px;
+    width: 160px;
+    margin-left: 10px;
+    height: 200px;
+  }
+
+  .naturalProduct,.resistance{
+    width: 120px;
+    height: 20px; 
+  }
+
+  .circleIcon{
+    width: 10px;
+    height: 10px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 8px;
+    display: inline;
+  }
+  .chooseUsCards{
+    width: auto;
+  }
+  .fresh,.security,.support,.return{
+    width: 60px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 20px;
+    height: 20px;
+}
+.chooseUsCards h4{
+    font-size: 10px;
+}
+.chooseUsCards p{
+    font-size: 8px;
+}
+}
+
+
+
+
+@media(min-width:600px){
+    .chooseUs{
+        margin-left: 30px;
+    }
+
+    .chooseUsAboutHead{
+        font-size: 20px;   
+    }
+
+  .chooseUsSubHead{
+    font-size:16px ;
+    font-weight: 600;
+  }
+
+  .chooseUsAboutContent{
+    width: 250px;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .chooseUsImg{
+    margin-top: 70px;
+    width: 250px;
+    margin-left: 30px;
+    height: 250px;
+  }
+
+  .naturalProduct,.resistance{
+    width: 250px;
+    height: 30px; 
+  }
+
+  .circleIcon{
+    width: 10px;
+    height: 10px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 12px;
+    display: inline;
+  }
+  .chooseUsCards{
+    width: auto;
+  }
+  .fresh,.security,.support,.return{
+    width: 120px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 30px;
+    height: 30px;
+}
+.chooseUsCards h4{
+    font-size: 14px;
+}
+.chooseUsCards p{
+    font-size: 12px;
+}
+}
+
+
+
+@media(min-width:768px){
+  .chooseUs{
+        margin-left: 20px;
+    }
+
+  .chooseUsAboutHead{
+        font-size: 24px;   
+    }
+
+  .chooseUsSubHead{
+    font-size:24px ;
+    font-weight: 800;
+  }
+
+  .chooseUsAboutContent{
+    width: 350px;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .chooseUsImg{
+    margin-top: 70px;
+    width: 350px;
+    margin-left: 10px;
+    height: 350px;
+  }
+
+  .naturalProduct,.resistance{
+    width: 350px;
+    height: 40px; 
+  }
+
+  .circleIcon{
+    width: 10px;
+    height: 10px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 16px;
+    display: inline;
+  }
+  .chooseUsCards{
+    width: auto;
+  }
+  .fresh,.security,.support,.return{
+    width: 150px;
+    height: 170px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+.return{
+    margin-left: 50px;
+}
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 30px;
+    height: 30px;
+}
+.chooseUsCards h4{
+    font-size: 16px;
+}
+.chooseUsCards p{
+    font-size: 14px;
+}
+}
+
+
+
+@media(min-width:992px){
+    .chooseUs{
+          margin-left: 50px;
+    }
+  
+    .chooseUsAboutHead{
+          font-size: 28px;   
+    }
+  
+    .chooseUsSubHead{
+      font-size:28px ;
+      font-weight: 800;
+    }
+  
+    .chooseUsAboutContent{
+      width: 450px;
+    }
+  
+    .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .chooseUsImg{
+      margin-top: 100px;
+      width: 450px;
+      margin-left: 10px;
+      height: 450px;
+    }
+  
+    .naturalProduct,.resistance{
+      width: 450px;
+      height: 50px; 
+    }
+  
+    .circleIcon{
+      width: 10px;
+      height: 10px;
+    }
+  
+    .naturalProductCaption,.resistanceCaption{
+      font-size: 18px;
+      display: inline;
+    }
+    .chooseUsCards{
+      width: auto;
+      margin-top: 50px;
+    }
+    .fresh,.security,.support,.return{
+      width: 180px;
+      height: 220px;
+      margin-top: 100px;
+      margin-left: 20px;
+      margin-bottom: 100px;
+  }
+  .return{
+      margin-left: 100px;
+  }
+  .returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+      width: 40px;
+      height: 40px;
+  }
+  .chooseUsCards h4{
+      font-size: 20px;
+  }
+  .chooseUsCards p{
+      font-size: 18px;
+  }
+  }
+
+
+
+
+  @media(min-width:1200px){
+    .chooseUs{
+        margin-left: 70px;
+  }
+
+  .chooseUsAboutHead{
+        font-size: 36px;   
+  }
+
+  .chooseUsSubHead{
+    font-size:36px ;
+    font-weight: 800;
+  }
+
+  .chooseUsAboutContent{
+    width: 550px;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .chooseUsImg{
+    margin-top: 150px;
+    width: 500px;
+    margin-left: 10px;
+    height: 500px;
+  }
+
+  .naturalProduct,.resistance{
+    width: 550px;
+    height: 50px; 
+  }
+
+  .circleIcon{
+    width: 20px;
+    height: 20px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 20px;
+    display: inline;
+  }
+  .chooseUsCards{
+    width: auto;
+    margin-top: 50px;
+  }
+  .fresh,.security,.support,.return{
+    width: 180px;
+    height: 250px;
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-bottom: 120px;
+}
+
+.return{
+    margin-left: 180px;
+}
+
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.chooseUsCards h4{
+    font-size: 20px;
+}
+
+.chooseUsCards p{
+    font-size: 18px;
+}
+  
+}

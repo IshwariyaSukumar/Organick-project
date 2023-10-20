@@ -1,0 +1,232 @@
+.subscribe{
+    background-image: url(../../images/subscribe.jpg);
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.subscribeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribeHead{
+color: #FFF;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+display: inline;
+
+}
+
+.subscribeInput{
+ border: none;
+ border-radius: 16px;
+ background-color: white;
+}
+
+.subscribeButton{
+border-radius: 16px;
+background: #274C5B;
+border: none;
+color: white;
+}
+
+
+
+
+@media(min-width:320px){
+    .subscribe{
+        
+        background-size: 100% 100px;
+        border-radius: 10px;
+        
+       
+    }
+    .subscribeHead{
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        width: 70px;  
+    }
+
+    .subscribeInput{
+        width: 55px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 6px;
+        margin-left: 20px;
+       
+       }
+       
+    .subscribeButton{
+       border-radius: 5px;
+       height: 30px;
+       margin-left: 3px;
+       width: 50px;
+       padding: 13px;
+       font-size: 8px;
+      
+       }
+
+}
+
+
+
+
+@media(min-width:600px){
+    .subscribe{
+       height: 150px;
+        border-radius: 10px;
+        background-size: 100% 150px;
+    }
+
+    .subscribeHead{
+        font-size: 26px;
+        font-weight: 600;
+        display: inline;
+        width: 170px;  
+    }
+
+    .subscribeInput{
+        width: 95px;
+        height: 40px;
+        border: none;
+        border-radius: 7px;
+        font-size: 10px;
+        margin-left: 10px;
+       
+    }
+       
+    .subscribeButton{
+       border-radius: 7px;
+       height: 40px;
+       margin-left: 5px;
+       width: 85px;
+       padding: 21px;
+       font-size: 12px;
+    }
+
+}
+
+
+
+
+@media(min-width:768px){
+    .subscribe{
+        height: 180px;
+        border-radius: 10px;
+        background-size: 100% 180px;
+    }
+
+    .subscribeHead{
+        font-size: 32px;
+        font-weight: 600;
+        display: inline;
+        width: 220px;  
+    }
+
+    .subscribeInput{
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 7px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+       
+    .subscribeButton{
+       border-radius: 7px;
+       height: 50px;
+       margin-left: 10px;
+       width: 100px;
+       padding: 25px;
+       font-size: 14px;
+    }
+
+}
+
+
+
+
+@media(min-width:992px){
+    .subscribe{
+        height: 200px;
+        border-radius: 10px;
+        background-size: 100% 200px;
+    }
+
+    .subscribeHead{
+        font-size: 38px;
+        font-weight: 700;
+        display: inline;
+        width: 250px;  
+    }
+
+    .subscribeInput{
+        width: 210px;
+        height: 50px;
+        border: none;
+        border-radius: 7px;
+        font-size: 14px;
+        margin-left: 20px;
+        
+    }
+       
+    .subscribeButton{
+       border-radius: 7px;
+       height: 50px;
+       margin-left: 10px;
+       width: 150px;
+       padding: 26px;
+       font-size: 16px;
+    }
+
+}
+
+
+
+
+
+@media(min-width:1200px){
+    .subscribe{
+       
+        height: 250px;
+        border-radius: 10px;
+       
+        background-size: 100% 250px;
+    }
+
+    .subscribeHead{
+        font-size: 44px;
+        font-weight: 800;
+        display: inline;
+        width: 300px;  
+    }
+
+    .subscribeInput{
+        width: 210px;
+        height: 60px;
+        border: none;
+        border-radius: 7px;
+        font-size: 14px;
+        margin-left: 40px;
+       
+    }
+       
+    .subscribeButton{
+       border-radius: 7px;
+       height: 60px;
+       margin-left: 10px;
+       width: 120px;
+       padding: 26px;
+       font-size: 16px;
+    }
+
+}

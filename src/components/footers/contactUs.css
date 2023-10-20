@@ -1,0 +1,162 @@
+.contactUs{
+display: flex;
+flex-direction: column;
+flex: 1 2 1;
+align-items: flex-end;
+margin-left: 10%;
+width: 25%;
+}
+
+.contact{
+color: #274C5B;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+}
+
+.email,.phone,.address{
+text-align: right;
+font-weight: 700;
+line-height: 1.5em;
+color: #525C60;
+}
+
+.emailId,.phoneNo,.compAddress{
+font-weight: 400;
+line-height: 1em;
+color: #525C60; 
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+}
+
+
+
+
+
+@media(min-width:320px){ 
+    .contact{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    
+    .email,.phone,.address{
+        font-size: 12px;
+        line-height: 0.5em;
+    }
+        
+    .emailId,.phoneNo,.compAddress{
+        font-weight: 400;
+        line-height: 1em;
+        font-size: 10px; 
+    }
+}
+
+
+
+@media(min-width:600px){
+    .contactUs{
+        width: 220px;
+        height: 200px;  
+    }
+        
+    .contact{
+        font-size: 24px;
+        font-weight: 700;
+    }
+        
+    .email,.phone,.address{
+        font-weight: 700;
+        line-height: 0.5em;
+        font-size: 18px;
+    }
+        
+    .emailId,.phoneNo,.compAddress{
+        font-weight: 400;
+        line-height: 1em;
+        font-size: 12px; 
+    }
+}
+
+
+
+@media(min-width:768px){
+    .contactUs{
+        width: 270px;
+        height: 100px;
+       
+    }
+        
+    .contact{
+        font-size: 24px;
+        font-weight: 700;
+    }
+        
+    .email,.phone,.address{
+        font-weight: 700;
+        line-height: 0.5em;
+        font-size: 18px;
+    }
+        
+    .emailId,.phoneNo,.compAddress{
+        font-weight: 400;
+        line-height: 1em;
+        font-size: 14px; 
+    }
+}
+
+
+
+
+@media(min-width:992px){
+    .contactUs{
+        width: 320px;
+        height: 150px;
+        
+    }
+        
+    .contact{
+        font-size: 28px;
+        font-weight: 700;
+    }
+        
+    .email,.phone,.address{
+        font-weight: 700;
+        line-height: 0.5em;
+        font-size: 20px;
+    }
+        
+    .emailId,.phoneNo,.compAddress{
+        font-weight: 400;
+        line-height: 1em;
+        font-size: 16px; 
+    }
+}
+
+
+@media(min-width:1200px){
+    .contactUs{
+        width: 350px;
+        height: 200px;
+        
+    }
+        
+    .contact{
+        font-size: 32px;
+        font-weight: 800;
+    }
+        
+    .email,.phone,.address{
+        font-weight: 700;
+        line-height: 0.5em;
+        font-size: 24px;
+    }
+        
+    .emailId,.phoneNo,.compAddress{
+        font-weight: 400;
+        line-height: 1em;
+        font-size: 18px; 
+    }
+}

@@ -1,0 +1,12 @@
+.loadMoreBtn{
+    background: #274C5B;
+    color: white;
+    
+}
+.loadButton{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 2%;
+}
+

@@ -1,0 +1,4 @@
+.teamMember{
+    display: flex;
+    flex-wrap: wrap;
+}
