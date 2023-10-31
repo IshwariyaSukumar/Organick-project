@@ -1,0 +1,221 @@
+.testimony{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-top: 10%;
+}
+
+.testimonyContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+}
+.testimonyImg1,.testimonyImg2{
+    width: 20%;
+}
+
+.testimonyHead{
+    color: #7EB693;
+    font-family: 'Yellowtail';
+    font-weight: 400;
+}
+.testimonySubHead,.testimonialName{
+    color: #274C5B;
+    font-family: 'Roboto';
+}
+.testimonyPara,.consumer{
+    color: #525C60;
+    font-family: 'Open Sans';
+}
+
+.tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+
+.farmingTag,.activeTag,.orchadsTag,.organicTag{
+    border:3px solid  #7EB693;
+    border-radius: 100px;
+    font-family:'Open Sans';
+    width: 200px;
+    height: 200px;
+    background-color: #F1F1F1; 
+    display: flex;
+    flex-direction: column;
+    line-height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+strong{
+    color: #274C5B;
+}
+
+@media(min-width:320px){
+   .testimonyContent{
+    line-height: 90%;
+   }
+    .testimonyHead{
+        font-size:18px ;
+    }
+    .testimonySubHead{
+        font-size: 16px;
+    }
+.tags{
+    column-gap: 5px;
+}
+    .farmingTag,.activeTag,.orchadsTag,.organicTag{
+       width: 50px;
+       height: 50px;
+        font-size: 8px;
+        
+    }
+.testimonyPara,.testimonialName{
+    font-size: 10px;
+}
+    .testimonyProfile{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        align-self: center;
+    }
+
+    .rating{
+       width: 80px;
+       align-self: center;
+    }
+.consumer{
+    font-size: 8px;
+}
+}
+
+
+@media(min-width:768px){
+    .testimonyContent{
+     line-height: 100%;
+     
+    }
+     .testimonyHead{
+         font-size:24px ;
+     }
+     .testimonySubHead{
+         font-size: 20px;
+     }
+     .tags{
+        column-gap: 10px;
+     }
+     .farmingTag,.activeTag,.orchadsTag,.organicTag{
+        width: 70px;
+        height: 70px;
+         font-size: 8px;
+         
+     }
+ .testimonyPara,.testimonialName{
+     font-size: 12px;
+ }
+ .testimonyPara{
+    margin-left: 10%;
+    width: 80%;
+ }
+     .testimonyProfile{
+         width: 50px;
+         height: 50px;
+         border-radius: 100px;
+         align-self: center;
+     }
+ 
+     .rating{
+        width: 80px;
+        align-self: center;
+     }
+ .consumer{
+     font-size: 8px;
+ }
+ strong{
+    font-size: 14px;
+ }
+ }
+
+
+
+ @media(min-width:992px){
+    .testimonyContent{
+     line-height: 120%;
+     
+    }
+     .testimonyHead{
+         font-size:28px ;
+     }
+     .testimonySubHead{
+         font-size: 24px;
+     }
+     .tags{
+        column-gap: 10px;
+     }
+     .farmingTag,.activeTag,.orchadsTag,.organicTag{
+        width: 80px;
+        height: 80px;
+         font-size: 10px;
+         
+     }
+ .testimonyPara,.testimonialName{
+     font-size: 14px;
+ }
+
+     .rating{
+        width: 90px;
+        align-self: center;
+     }
+ .consumer{
+     font-size: 10px;
+ }
+ strong{
+    font-size: 14px;
+ }
+ }
+
+
+
+
+ @media(min-width:1200px){
+    .testimonyContent{
+     line-height: 130%;
+     
+    }
+     .testimonyHead{
+         font-size:36px ;
+     }
+     .testimonySubHead{
+         font-size: 28px;
+     }
+     .tags{
+        column-gap: 10px;
+     }
+     .farmingTag,.activeTag,.orchadsTag,.organicTag{
+        width: 100px;
+        height: 100px;
+         font-size: 12px;
+         
+     }
+ .testimonyPara,.testimonialName{
+     font-size: 16px;
+ }
+.testimonyProfile{
+    width: 60px;
+    height: 60px;
+}
+     .rating{
+        width: 100px;
+        align-self: center;
+     }
+ .consumer{
+     font-size: 10px;
+ }
+ strong{
+    font-size: 18px;
+ }
+ }

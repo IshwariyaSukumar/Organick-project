@@ -1,0 +1,125 @@
+.categories{
+    background-color:  #F1F8F4;
+    width: auto;
+    display: flex;
+    margin-top: 10%;
+}
+
+.organicJuice,.organicFood,.nutsCookies{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 30%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.organicJuice{
+    background-image: url(../../images/organicJuice.jpg); 
+}
+.organicFood{
+    background-image: url(../../images/organicJuice.jpg);
+    margin-left: 5%;
+}
+
+.nutsCookies{
+    background-image: url(../../images/nutsCookies.jpg);
+    margin-left: 5%;
+}
+
+.organicFoodBtn,.organicJuiceBtn,.nutsCookiesBtn{
+border-radius: 20px;
+background: #FFF;
+gap: 10px;
+border: none;
+
+
+
+}
+
+
+@media(min-width:320px){
+   
+    .organicJuice,.organicFood,.nutsCookies{
+        height: 120px;
+        background-size: 100%,100%;
+    }
+
+    .organicFoodBtn,.organicJuiceBtn,.nutsCookiesBtn{
+        border-radius: 5px;
+        background: #FFF;    
+        width: 50px;
+        height: 20px;  
+    }
+}
+
+
+@media(min-width:600px){
+   
+    .organicJuice,.organicFood,.nutsCookies{
+        height: 200px;
+        background-size: 100%,100%;
+    }
+
+    .organicFoodBtn,.organicJuiceBtn,.nutsCookiesBtn{
+        border-radius: 5px;
+        background: #FFF;    
+        width: 75px;
+        height: 30px;   
+    }
+}
+
+
+@media(min-width:768px){
+
+
+    .organicJuice,.organicFood,.nutsCookies{
+        height: 250px;
+        background-size: 100%,100%;
+    }
+
+
+    .organicFoodBtn,.organicJuiceBtn,.nutsCookiesBtn{
+        border-radius: 5px;
+        background: #FFF;    
+        width: 125px;
+        height: 40px;
+    }
+}
+
+
+@media(min-width:992px){
+   
+
+    .organicJuice,.organicFood,.nutsCookies{
+        height: 320px;
+        background-size: 100%,100%;
+    }
+
+
+    .organicFoodBtn,.organicJuiceBtn,.nutsCookiesBtn{
+        border-radius: 5px;
+        background: #FFF;    
+        width: 180px;
+        height: 50px;
+    }
+}
+
+
+@media(min-width:1200px){
+
+    .organicJuice,.organicFood,.nutsCookies{
+        height: 350px;
+        background-size: 100%,100%;
+    }
+
+    .organicFoodBtn,.organicJuiceBtn,.nutsCookiesBtn{
+        border-radius: 5px;
+        background: #FFF;    
+        width: 230px;
+        height: 60px;
+        font-size: 20px;
+    }
+}

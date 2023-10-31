@@ -1,0 +1,15 @@
+
+.relatedProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: -10%;
+   
+}
+
+.relatedProductsHead{
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 30px;
+}

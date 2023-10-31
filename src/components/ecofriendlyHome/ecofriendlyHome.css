@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&family=Yellowtail&display=swap');
+.ecofriendly{
+display: flex;
+width: auto;
+}
+.greenary{
+    width: 50%;
+}
+.ecofriendlyContent{
+display: inline;
+width: 100%;
+background-color: white;
+margin-top: 3%;
+margin-left: -5%;
+border-radius: 40px;
+padding-left: 3%;
+margin-bottom: 3%;
+
+}
+
+.ecofriendlyMainHead{
+color: #7EB693;
+font-family: 'Yellowtail',cursive;
+font-style: normal;
+font-weight: 400;
+line-height: 0cap;
+}
+
+.ecofriendlyHeading{
+color: #274C5B;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+
+}
+
+.ecofriendlySubHead1,.ecofriendlySubHead2,.ecofriendlySubHead3{
+color: #274C5B;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ecofriendlyPara1,.ecofriendlyPara2,.ecofriendlyPara3{
+color: #525C60;
+font-family: 'Open Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%;
+}
+
+
+@media(min-width:320px){
+    .ecofriendly{
+        margin-top: 50px;
+    }
+  
+.ecofriendlyContent{
+    border-radius: 20px;
+}
+
+.ecofriendlyMainHead{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0cap;
+}
+    
+.ecofriendlyHeading{
+    width: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+}
+    
+.ecofriendlySubHead1,.ecofriendlySubHead2,.ecofriendlySubHead3{
+    font-size: 10px;
+   
+    line-height: 80%;
+}
+    
+.ecofriendlyPara1,.ecofriendlyPara2,.ecofriendlyPara3{
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 100%;
+}
+}
+
+
+@media(min-width:600px){
+    .ecofriendly{
+        margin-top: 60px;
+    }
+   
+    .ecofriendlyContent{
+        border-radius: 30px;
+    }
+    
+
+    .ecofriendlyMainHead{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 0cap;
+    }
+        
+    .ecofriendlyHeading{
+        font-size: 24px;
+        font-weight: 800;
+        width: 270px;
+        line-height: 100%;
+    }
+        
+    .ecofriendlySubHead1,.ecofriendlySubHead2,.ecofriendlySubHead3{
+        font-size: 20px;
+       
+        line-height: 50%;
+    }
+        
+    .ecofriendlyPara1,.ecofriendlyPara2,.ecofriendlyPara3{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+    
+    }
+
+    @media(min-width:768px){
+        .ecofriendly{
+            margin-top: 80px;
+        }
+        
+        
+      
+    
+        .ecofriendlyMainHead{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 0cap;
+        }
+            
+        .ecofriendlyHeading{
+            font-size: 24px;
+            font-weight: 800;
+            width: 270px;
+            line-height: 100%;
+        }
+            
+        .ecofriendlySubHead1,.ecofriendlySubHead2,.ecofriendlySubHead3{
+            font-size: 20px;
+           
+            line-height: 50%;
+        }
+            
+        .ecofriendlyPara1,.ecofriendlyPara2,.ecofriendlyPara3{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 100%;
+        }
+        
+     }
+
+@media(min-width:992px){
+    .ecofriendly{
+        margin-top: 100px;
+    }
+   
+            
+   
+        
+    .ecofriendlyMainHead{
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 0cap;
+    }
+                
+    .ecofriendlyHeading{
+        font-size: 28px;
+        font-weight: 800;
+        width: 270px;
+        line-height: 100%;
+    }
+                
+    .ecofriendlySubHead1,.ecofriendlySubHead2,.ecofriendlySubHead3{
+        font-size: 24px;
+       
+        line-height: 50%;
+    }
+                
+    .ecofriendlyPara1,.ecofriendlyPara2,.ecofriendlyPara3{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+            
+}
+
+@media(min-width:1200px){
+    .ecofriendly{
+        margin-top: 100px;
+    }
+    
+            
+    
+        
+    .ecofriendlyMainHead{
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 0cap;
+    }
+                
+    .ecofriendlyHeading{
+        font-size: 32px;
+        font-weight: 800;
+        width: 500px;
+        line-height: 100%;
+    }
+                
+    .ecofriendlySubHead1,.ecofriendlySubHead2,.ecofriendlySubHead3{
+        font-size: 24px;
+        line-height: 50%;
+       
+    }
+                
+    .ecofriendlyPara1,.ecofriendlyPara2,.ecofriendlyPara3{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        
+    }
+            
+}

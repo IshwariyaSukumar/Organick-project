@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+.chooseUs{
+    display: flex;
+    flex: 1 1;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.chooseUsAboutHead{
+color: #7EB693;
+font-family: 'Yellowtail',cursive;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.chooseUsAboutContent{
+   width: 50%;
+}
+
+.fresh h4,.security h4,.support h4,.return h4{
+  color: #274C5B;
+}
+
+.fresh p,.security p,.support p,.return p{
+  color: #525C60;
+}
+
+.chooseUsImg{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.naturalProduct,.resistance{
+    background-color:#ECECEC;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    text-align: center;
+   
+}
+
+.chooseUsSubHead{
+color: #274C5B;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3,.naturalProductCaption,.resistanceCaption{
+    color: #525C60;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;  
+}
+
+
+.chooseUsCards{
+    display: flex;
+    background-color: #F9F8F8;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    padding:5%;
+}
+
+.fresh,.security,.support,.return{
+    background-color: white;
+    text-align: center;
+    column-gap: 10px;
+   
+}
+
+
+
+
+
+
+@media(min-width:320px){
+    
+  .chooseUsAboutHead{
+    font-size: 18px;   
+  }
+
+  .chooseUsSubHead{
+    font-size:14px;
+    font-weight: 600;
+  }
+
+  .chooseUsAboutContent{
+    width: 100%;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 10px;
+    line-height: 110%;
+  }
+
+  .chooseUsImg{
+    margin-top: 70px;
+    width: 140px;
+    margin-left: 5%;
+    height: 180px;
+    margin-right: 10%;
+  }
+
+  .naturalProduct,.resistance{
+    width: 120px;
+    height: 20px; 
+  }
+
+  .circleIcon{
+    width: 10px;
+    height: 10px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 8px;
+    display: inline;
+  }
+  
+  .fresh,.security,.support,.return{
+    width: 60px;
+    height: 120px;
+    margin-left: 10px;
+    
+}
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 20px;
+    height: 20px;
+}
+.chooseUsCards h4{
+    font-size: 10px;
+}
+.chooseUsCards p{
+    font-size: 8px;
+}
+}
+
+
+
+
+@media(min-width:600px){
+    
+
+  .chooseUsAboutHead{
+    font-size: 20px;   
+  }
+
+  .chooseUsSubHead{
+    font-size:16px ;
+    font-weight: 600;
+  }
+
+  .chooseUsAboutContent{
+    width: 100%;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .chooseUsImg{
+    width: 300px;
+    height: 300px;
+  }
+
+  .naturalProduct,.resistance{
+    width: 250px;
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circleIcon{
+    width: 10px;
+    height: 10px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 12px;
+    display: inline;
+  }
+  
+  .fresh,.security,.support,.return{
+    width: 150px;
+    height: 150px;
+}
+.fresh,.security,.support{
+  margin-left: 20px;
+}
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 30px;
+    height: 30px;
+}
+
+.chooseUsCards h4{
+    font-size: 14px;
+}
+.chooseUsCards p{
+    font-size: 12px;
+}
+}
+
+
+
+@media(min-width:768px){
+ 
+
+  .chooseUsAboutHead{
+      font-size: 24px;   
+  }
+
+  .chooseUsSubHead{
+    font-size:24px ;
+    font-weight: 800;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .chooseUsImg{
+    margin-top: 70px;
+    width: 350px;
+    margin-left: 10px;
+    height: 350px;
+  }
+
+  .naturalProduct,.resistance{
+    width: 350px;
+    height: 40px; 
+  }
+
+  .circleIcon{
+    width: 10px;
+    height: 10px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 16px;
+    display: inline;
+  }
+  
+  .fresh,.security,.support,.return{
+    width: 160px;
+    height: 170px;
+   
+   
+}
+.fresh,.security,.support{
+  margin-left: 20px;
+}
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 30px;
+    height: 30px;
+}
+.chooseUsCards{
+  width: auto;
+}
+.chooseUsCards h4{
+    font-size: 16px;
+}
+.chooseUsCards p{
+    font-size: 14px;
+}
+}
+
+
+
+@media(min-width:992px){
+   
+  
+    .chooseUsAboutHead{
+          font-size: 28px;   
+    }
+  
+    .chooseUsSubHead{
+      font-size:28px ;
+      font-weight: 800;
+    }
+  
+   
+  
+    .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .chooseUsImg{
+      margin-top: 100px;
+      width: 450px;
+      margin-left: 10px;
+      height: 450px;
+    }
+  
+    .naturalProduct,.resistance{
+      width: 450px;
+      height: 50px; 
+    }
+  
+    .circleIcon{
+      width: 10px;
+      height: 10px;
+    }
+  
+    .naturalProductCaption,.resistanceCaption{
+      font-size: 18px;
+      display: inline;
+    }
+   
+    .fresh,.security,.support,.return{
+      width: 180px;
+      height: 220px; 
+      
+  }
+  .fresh,.security,.support{
+    margin-left: 20px;
+  }
+  .returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+      width: 40px;
+      height: 40px;
+  }
+  .chooseUsCards h4{
+      font-size: 20px;
+  }
+  .chooseUsCards p{
+      font-size: 18px;
+  }
+  }
+
+
+
+
+  @media(min-width:1200px){
+    
+  .chooseUsAboutHead{
+        font-size: 36px;   
+  }
+
+  .chooseUsSubHead{
+    font-size:36px ;
+    font-weight: 800;
+  }
+
+  .chooseUsAboutContent{
+    width: 550px;
+  }
+
+  .chooseUsAboutPara1,.chooseUsAboutPara2,.chooseUsAboutPara3{
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .chooseUsImg{
+    margin-top: 150px;
+    width: 500px;
+    margin-left: 10px;
+    height: 500px;
+  }
+
+  .naturalProduct,.resistance{
+    width: 550px;
+    height: 50px; 
+  }
+
+  .circleIcon{
+    width: 20px;
+    height: 20px;
+  }
+
+  .naturalProductCaption,.resistanceCaption{
+    font-size: 20px;
+    display: inline;
+  }
+  
+  .fresh,.security,.support{
+    width: 180px;
+    height: 250px;
+    margin-left: 20px;
+   
+}
+
+.return{
+  width: 180px;
+  height: 250px;
+}
+
+.returnIcon,.naturalFoodIcon,.securityCardIcon,.phoneIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.chooseUsCards h4{
+    font-size: 20px;
+}
+
+.chooseUsCards p{
+    font-size: 18px;
+}
+  
+}

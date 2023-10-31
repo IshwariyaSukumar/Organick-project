@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;700&family=Yellowtail&display=swap');
+
+.teamMemberCard{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F8F8;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.name{
+    color: #274C5B;
+    font-family: 'Roboto';
+    line-height: 5%;
+}
+.designation{
+    color: #7EB693;
+    font-family: 'Yellowtail';
+    line-height:5% ;
+}
+
+
+@media(min-width:320px){
+    .teamMemberCard{
+        width: 150px;
+        height: 250px;
+        
+        
+    }
+
+    .profilePicture{
+        width: 140px;
+        height: 140px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .designation{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+
+
+@media(min-width:600px){
+    .teamMemberCard{
+        width: 150px;
+        height: 300px;
+        margin-left: 5.5%;
+        
+    }
+
+    .profilePicture{
+        width: 150px;
+        height: 180px;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .designation{
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media(min-width:768px){
+    .teamMemberCard{
+        width: 210px;
+        height: 300px;
+        margin-left: 4%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .profilePicture{
+        width: 210px;
+        height: 230px;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .designation{
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media(min-width:992px){
+    .teamMemberCard{
+        width: 240px;
+        height: 300px;
+        margin-left: 6%;
+        margin-top: 50px;
+        
+    }
+
+    .profilePicture{
+        width: 240px;
+        height: 240px;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .designation{
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+
+
+@media(min-width:1200px){
+    .teamMemberCard{
+        width: 270px;
+        height: 320px;
+        margin-left: 7.5%;
+        margin-top: 50px;
+        
+    }
+
+    .profilePicture{
+        width: 270px;
+        height: 270px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .designation{
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
