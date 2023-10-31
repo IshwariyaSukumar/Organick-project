@@ -1,11 +1,12 @@
 .aboutUsFooter{
-  width: 30%;
+ width: 100%;
   margin-top: 4%;
+  margin-left: 5%;
 }
 .title{
     text-align: center;
     color: #274C5B;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 700;
 }
 .aboutUsFooterContent{
@@ -17,8 +18,7 @@
 .aboutUsFooterPara{
 color: #525C60;
 text-align: center;
-font-family: Open Sans;
-font-size: 18px;
+font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 line-height: 165.4%; 
@@ -58,12 +58,12 @@ justify-content: center;
 
   .title{
     
-    font-size: 12px;
+    font-size: 10px;
 }
 
  .aboutUsFooterPara{
    
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 300;
     line-height: 150%; 
     text-align: start;
@@ -90,12 +90,12 @@ justify-content: center;
   }
   
     .title{
-      font-size: 24px;
+      font-size: 18px;
     }
   
    .aboutUsFooterPara{
      
-      font-size: 12px;
+      font-size: 10px;
       font-weight: 300;
       line-height: 160%; 
       text-align: start;
@@ -121,11 +121,11 @@ justify-content: center;
   }
   
     .title{
-      font-size: 24px;
+      font-size: 20px;
     }
   
    .aboutUsFooterPara{
-      font-size: 14px;
+      font-size: 10px;
       font-weight: 300;
       line-height: 180%; 
       text-align: start;
@@ -150,11 +150,11 @@ justify-content: center;
   }
   
     .title{
-      font-size: 28px;
+      font-size: 20px;
   }
   
    .aboutUsFooterPara{
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 300;
       line-height: 200%; 
      
@@ -186,12 +186,12 @@ justify-content: center;
   
     .title{
       margin-left: 5px;
-      font-size: 32px;
+      font-size: 20px;
   }
   
    .aboutUsFooterPara{
       margin-top: 60px;
-      font-size: 18px;
+      font-size: 12px;
       font-weight: 300;
       line-height: 200%; 
       margin-left: 20px;

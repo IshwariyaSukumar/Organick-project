@@ -1,3 +1,20 @@
+.productCategories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.productCategoriesHead{
+     color: #7EB693;
+    font-family: 'Yellowtail';
+    font-weight: 400;
+}
+.productCategoriesSubHead{
+    color: #274C5B;
+    font-family: 'Roboto';
+}
+
 .loadMoreBtn{
     background: #274C5B;
     color: white;
@@ -10,3 +27,22 @@
     margin-top: 2%;
 }
 
+@media(min-width:320px){
+    .productCategories{
+        font-size: 20px;
+    }
+}
+
+
+@media(min-width:768px){
+    .productCategories{
+        font-size: 28px;
+    }
+}
+
+
+@media(min-width:992px){
+    .productCategories{
+        font-size: 30px;
+    }
+}

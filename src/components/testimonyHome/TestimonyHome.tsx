@@ -7,7 +7,7 @@ import Star from "../../images/Star.png";
 export const TestimonyHome = () => {
   return (
     <div className="testimony">
-      <img src={testimonyImg1} />
+      <img src={testimonyImg1} className="testimonyImg1" />
       <div className="testimonyContent">
         <h4 className="testimonyHead">Testimonial</h4>
         <h3 className="testimonySubHead">What Our Customers Saying?</h3>
@@ -22,21 +22,25 @@ export const TestimonyHome = () => {
         <p className="consumer">Consumer</p>
 
         <div className="tags">
-          <p className="organicTag">
-            <strong>100%</strong>Organic
-          </p>
-          <p className="activeTag">
-            <strong>285</strong>Active Product
-          </p>
-          <p className="orchadsTag">
-            <strong>300+</strong>Organic Orchads
-          </p>
-          <p className="farmingTag">
-            <strong>25+</strong>Years of Farming
-          </p>
+          <div className="organicTag">
+            <strong>100%</strong>
+            <p>Organic</p>
+          </div>
+          <div className="activeTag">
+            <strong>285</strong>
+            <p>Active Product</p>
+          </div>
+          <div className="orchadsTag">
+            <strong>300+</strong>
+            <p>Organic Orchads</p>
+          </div>
+          <div className="farmingTag">
+            <strong>25+</strong>
+            <p>Years of Farming</p>
+          </div>
         </div>
       </div>
-      <img src={testimonyImg2} />
+      <img src={testimonyImg2} className="testimonyImg2" />
     </div>
   );
 };

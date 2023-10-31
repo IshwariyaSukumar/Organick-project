@@ -3,7 +3,10 @@
 .categoriesAbout{
     background-color: #274C5B;
     width: auto;
+    margin-top: 10%;
+    padding-bottom: 10%;
 }
+
 .categoriesAboutHead{
     color: #7EB693;
     font-family: 'Yellowtail';
@@ -12,6 +15,7 @@
     line-height: normal;
     text-align: center;
 }
+
 .categoriesAboutSubHead{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -19,80 +23,61 @@
     text-align: center;
 }
 
+.productCategoriesAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    
+}
 
-
-.categoriesAbout figure{
+.categoriesAbout p{
     color: white;
     text-align: center;
 }
 
 @media(min-width:320px){
-   .categoriesAbout{
-    padding-top: 40px;
-    padding-bottom: 80px;
-   }
+  
     .categoriesAboutHead{
         font-size: 24px; 
-       
     }
+
     .categoriesAboutSubHead{
         font-size: 28px;
-        font-weight: 800px;
+        font-weight: 800;
     }
+
     .categoriesAbout img{
-       
-        width: 120px;
-        height: 120px;
+        width: 65px;
+        height: 70px;
         border-radius: 20px;
-    }
-    
+    }  
 }
 
 
 
 @media(min-width:600px){
+
     .categoriesAbout{
         width: auto;
-        padding-top: 40px;
-        padding-bottom: 100px;
     }
-    
+
     .categoriesAboutHead{
         font-size: 24px;
-        margin-bottom: 30px; 
-       
     }
-    .categoriesAboutSubHead{
-        font-size: 28px;
-        font-weight: 800px;
-    }
+   
     .categoriesAbout img{
-        width: 120px;
-        height: 120px; 
-    }
-    .spicyFig{
-        margin-left: 20px;
-    }
-    .nutsFig,.fruitsFig,.vegetablesFig{
-        margin-left: -20px;
-    }
-    .productCategoriesAbout{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+        width: 100px;
+        height: 100px; 
+    }  
     
 }
 
 
+
 @media(min-width:768px){
-    .categoriesAbout{
-        width: auto;
-        padding-top: 40px;
-        padding-bottom: 100px;
-    }
-    
+   
     .categoriesAboutHead{
         font-size: 24px;
         margin-bottom: 30px; 
@@ -100,25 +85,14 @@
     }
     .categoriesAboutSubHead{
         font-size: 28px;
-        font-weight: 800px;
+        font-weight: 800;
     }
     .categoriesAbout img{
         width: 140px;
         height: 140px; 
     }
-    .spicyFig{
-        margin-left: 20px;
-    }
-    .nutsFig,.fruitsFig,.vegetablesFig{
-        margin-left: 0px;
-    }
-    .productCategoriesAbout{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
+   
+   
 }
 
 
@@ -127,11 +101,7 @@
 
 
 @media(min-width:992px){
-    .categoriesAbout{
-        width: auto;
-        padding-top: 50px;
-        padding-bottom: 120px;
-    }
+   
     
     .categoriesAboutHead{
         font-size: 28px;
@@ -157,11 +127,6 @@
         margin-left: 0px;
     }
 
-    .productCategoriesAbout{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+
     
 }

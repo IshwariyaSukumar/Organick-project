@@ -1,39 +1,54 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Header } from "../../components/headers/Header";
-import { BannerShop } from "../../components/bannerShop/BannerShop";
+import { BannerShop } from "../../components/banner/bannerShop/BannerShop";
 import { Footer } from "../../components/footers/Footer";
 import { Subscribe } from "../../components/subscribe/Subscribe";
 import ProductCard from "../../components/Cards/ProductCard";
 import { ProductType, productData } from "../../data/productCardsData";
 import "../shop/shop.css";
+import { databases } from "../../appwriteConfig";
+import { Query } from "appwrite";
+import { useParams } from "react-router-dom";
 
-// const dummyData = {
-//   category: "Vegetable",
-//   imageSrc: cauliflower,
-//   productName: "Calabrese Broccoli",
-//   price: "20.00",
-//   discountPrice: "13.00",
-//   rating: "5",
-//   productDescription:
-//     "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
-//   productOverview:
-//     "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
-//   additoinalInfo: "sdfsdf dsfadfa",
-// };
+const Shop = () => {
+  const { id } = useParams();
 
-export const Shop = () => {
+  const [data, setData] = useState<any>([]);
+  useEffect(() => {
+    databases
+      .listDocuments("6534c10e68de06206d3d", "6534c1191e4407a8ad99", [
+        Query.equal("category", [
+          "Vegetable",
+          "Fresh",
+          "Nuts",
+          "Millets",
+          "Health",
+        ]),
+      ])
+      .then(
+        function (response) {
+          setData(response.documents);
+          return response;
+        },
+        function (error) {
+          console.log(error);
+        }
+      );
+  }, []);
+
   return (
     <div className="shop">
       <Header />
       <BannerShop />
       <div className="shopProduct">
-        {productData.map((product: ProductType) => (
+        {data?.map?.((product: ProductType) => (
           <ProductCard data={product} key={product.productName} />
         ))}
       </div>
-      {/* <ProductCard data={dummyData} /> */}
       <Subscribe />
       <Footer />
     </div>
   );
 };
+
+export default Shop;

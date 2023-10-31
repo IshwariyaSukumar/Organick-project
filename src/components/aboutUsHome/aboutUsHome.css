@@ -2,7 +2,16 @@
 .aboutUsHome{
    display: flex;
    width: auto;
+   margin-top: 10%;
    
+}
+
+.aboutUsHomeContent{
+        width: 90%;
+        margin-right: 10%;
+        margin-left: 5%;
+       
+       
 }
 
 .aboutUsHomeHead{
@@ -25,7 +34,155 @@
     background-color: #274C5B;
     color: white;
 }
+.fruitImg{
+    width: 650px;
+    height: 700px;
+}
+.aboutUsTag1,.aboutUsTag2{
+    display: flex;
+}
+.organicFoodTag,.qualityTag{
+    margin-left: 2%;
+}
 
 @media(min-width:320px){
-
+   .aboutUsHomeHead{
+    font-size: 16px;
+   }
+   .aboutUsHomeSubHead{
+    font-size: 14px;
+   }
+   .fruitImg{
+     width: 150%;
+     height: 400px;
+   }
+   .aboutUsHomePara,.organicPara,.qualityPara{
+    font-size: 8px;
+   }
+   .organic,.quality{
+    font-size: 10px;
+   }
+   .mail,.vegan{
+    width: 20px;
+    height: 20px;
+   }
+  
+  
 }
+
+
+
+@media(min-width:600px){
+    .aboutUsHomeHead{
+     font-size: 18px;
+    }
+    .aboutUsHomeSubHead{
+     font-size: 16px;
+    }
+    .fruitImg{
+      width: 150%;
+      height: 500px;
+    }
+    .aboutUsHomePara,.organicPara,.qualityPara{
+     font-size: 10px;
+    }
+    .organic,.quality{
+     font-size: 12px;
+    }
+    .mail,.vegan{
+     width: 30px;
+     height: 30px;
+    }
+    .aboutUsFruit{
+        margin-top: -10%;
+    }
+   
+ }
+
+
+
+ @media(min-width:768px){
+    .aboutUsHomeHead{
+     font-size: 28px;
+    }
+    .aboutUsHomeSubHead{
+     font-size: 20px;
+    }
+    .fruitImg{
+      width: 140%;
+      height: 600px;
+    }
+    .aboutUsHomePara,.organicPara,.qualityPara{
+     font-size: 12px;
+    }
+    .organic,.quality{
+     font-size: 16px;
+    }
+    .mail,.vegan{
+     width: 30px;
+     height: 30px;
+    }
+    .aboutUsFruit{
+        margin-top: -10%;
+    }
+   
+ }
+
+
+
+ @media(min-width:992px){
+    .aboutUsHomeHead{
+     font-size: 32px;
+    }
+    .aboutUsHomeSubHead{
+     font-size: 24px;
+    }
+    .fruitImg{
+      width: 140%;
+      height: 700px;
+    }
+    .aboutUsHomePara,.organicPara,.qualityPara{
+     font-size: 16px;
+    }
+    .organic,.quality{
+     font-size: 18px;
+    }
+    .mail,.vegan{
+     width: 40px;
+     height: 40px;
+    }
+    .aboutUsFruit{
+        margin-top: -10%;
+    }
+   
+ }
+
+
+
+
+ @media(min-width:1200px){
+    .aboutUsHomeHead{
+     font-size: 40px;
+    }
+    .aboutUsHomeSubHead{
+     font-size: 32px;
+    }
+    .fruitImg{
+      width: 140%;
+      height: 800px;
+    }
+    .aboutUsHomePara,.organicPara,.qualityPara{
+     font-size: 18px;
+    }
+    .organic,.quality{
+     font-size: 22px;
+    }
+    .mail,.vegan{
+     width: 50px;
+     height: 50px;
+    }
+    .aboutUsFruit{
+        margin-top: -8%;
+    }
+   
+ }

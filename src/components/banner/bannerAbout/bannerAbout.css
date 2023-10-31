@@ -1,0 +1,63 @@
+.bannerAbout{
+  background-image:url(../../../images/shopSingleBanner.png);
+   width: 100%;
+   background-size: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5%;
+}
+
+.bannerAboutHead{  
+color: #274C5B;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+}
+
+@media(min-width:320px){
+    .bannerAbout{
+    height: 100px;
+    background-size: 100% 100px; 
+    background-repeat: no-repeat;
+}
+.bannerAboutHead{
+   font-size: 28px;
+}
+}
+
+
+@media(min-width:600px){
+   .bannerAbout{
+   height: 150px; 
+   background-size: 100% 150px; 
+}
+}
+
+@media(min-width:768px){
+   .bannerAbout{
+   height: 180px; 
+   background-size: 100% 180px; 
+}
+.bannerAboutHead{
+  font-size: 30px;
+}
+}
+
+@media(min-width:992px){
+   .bannerAbout{
+   height: 200px;
+   background-size: 100% 200px;  
+}
+
+}
+
+@media(min-width:1200px){
+   .bannerAbout{
+   height: 220px; 
+   background-size: 100% 220px; 
+}
+.bannerAboutHead{
+  font-size: 36px;
+}
+}

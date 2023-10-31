@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 .aboutUsAbout{
-    margin-top: 50px;
+    margin-top: 10%;
     display: flex;
+    width: 90%;
+   
 }
-
+.healthyBowlAbout{
+    width: 40%;
+}
+.aboutUsAboutContent{
+    width: 100%;
+}
 .aboutUsAboutHead{
 color: #7EB693;
 font-family: 'Yellowtail',cursive;
@@ -13,14 +20,11 @@ font-weight: 400;
 line-height: normal;
 }
 
-.healthyBowlAbout{
-    width: 200px;
-    height: 200px;
-}
+
 
 .aboutUsAboutSubHead{
 color: #274C5B;
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -30,8 +34,7 @@ line-height: normal;
 }
 .aboutUsAboutPara1,.aboutUsAboutPara2{
 color: #525C60;
-font-family: Open Sans;
-font-size: 18px;
+font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 line-height: 165.4%; 
@@ -40,7 +43,6 @@ line-height: 165.4%;
 .tractorCaption,.chemicalPlantCaption{
 color: #274C5B;
 font-family: Roboto;
-font-size: 25px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -62,10 +64,9 @@ color: white;
 
 @media(min-width:320px){
 .healthyBowlAbout{
-    width: 150px;
-    height: 180px;
-    margin-left: -10px;
-    margin-top: 30px;
+    width: 200px;
+    height: 250px;
+    margin-top: 10%;
 }
 
 .aboutUsAboutHead{
@@ -74,24 +75,27 @@ color: white;
 }
 
 .aboutUsAboutSubHead{
-    font-size: 18px;  
+    font-size: 16px;  
 }
 
 .aboutUsAboutPara1,.aboutUsAboutPara2{
     line-height: 0.9em;
-    font-size: 10px;
+    font-size: 8px;
     display: block;
 }
 
 .tractorIcon,.chemicalPlantIcon{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .tractorCaption,.chemicalPlantCaption{
-    font-size: 14px;
+    font-size: 10px;
     margin-top: 5px;
     margin-left: 2px;
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 
 .exploreBtn{
@@ -100,14 +104,12 @@ color: white;
 }
 }
 
+
 @media(min-width:600px){
-    .aboutUsAboutContent{
-        margin-left: 10px;
-    }
+   
     .healthyBowlAbout{
-        width: 170px;
-        height: 220px;
-        margin-left: -10px;
+        width: 300px;
+        height: 350px;
         margin-top: 30px;
     }
     
@@ -141,19 +143,17 @@ color: white;
         padding: 6px 8px;
         border-radius: 5px;
     }
-    }
+}
 
 
 @media(min-width:768px){
     .aboutUsAboutContent{
-        margin-left: 20px;
-        
+        margin-left: 20px; 
     }
 
     .healthyBowlAbout{
-        width: 250px;
-        height: 280px;
-        margin-left: -10px;
+        width: 330px;
+        height: 400px;
         margin-top: 30px;
     }
         
@@ -192,15 +192,13 @@ color: white;
 
 
 @media(min-width:992px){
-    .aboutUsAboutContent{
-        margin-left: 20px;
-        
-    }
-
+   
+.aboutUsAbout{
+    margin-right: 10%;
+}
     .healthyBowlAbout{
-        width: 300px;
-        height: 320px;
-        margin-left: 20px;
+        width: 350px;
+        height: 400px;
         margin-top: 30px;
     }
         
@@ -215,7 +213,7 @@ color: white;
         
     .aboutUsAboutPara1,.aboutUsAboutPara2{
         line-height: 1.2em;
-        font-size: 18px;
+        font-size: 16px;
         display: block;
         width: 600px;
     }
@@ -226,7 +224,7 @@ color: white;
     }
         
     .tractorCaption,.chemicalPlantCaption{
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 5px;
         margin-left: 20px;
     }

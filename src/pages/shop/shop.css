@@ -1,5 +1,5 @@
 .shopProduct{
-    margin-top: 30px;
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,7 +9,7 @@
 
 @media(min-width:320px){
  .shopProduct{
-    margin-top: 30px;
+   
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;

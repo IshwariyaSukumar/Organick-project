@@ -9,6 +9,7 @@
     align-items: center;
     margin-top: 10%;
    
+   
 }
 
 .productCategory{
@@ -45,7 +46,7 @@
 
 @media(min-width:320px){
    .productCard{
-     width: 100px;
+     width: 130px;
      height: 150px;
      margin-bottom: 100px;
     
@@ -65,10 +66,12 @@
    .discountedPrice{
     margin-left: 10px;
    }
+
    .productImg{
-    width: 100px;
+    width: 130px;
     height: 100px;
    }
+   
    .star{
     width: 50px;
    }

@@ -1,0 +1,68 @@
+.productCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.productQuantity{
+    
+    margin-bottom: 10%;
+}
+.productInfo{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quantityNprice{
+     color: #274C5B;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.totalQuantityNprice{
+    margin-left: 10%;
+    color: #274C5B;
+}
+
+
+@media(min-width:320px){
+    .quantityNprice{
+        font-size: 10px;
+    }
+    .totalQuantityNprice{
+        font-size: 12px;
+    }
+}
+
+@media(min-width:600px){
+    .quantityNprice{
+        font-size: 12px;
+    }
+    
+}
+
+@media(min-width:768px){
+    .quantityNprice{
+        font-size: 14px;
+    }
+    .totalQuantityNprice{
+        font-size: 14px;
+    }
+}
+
+@media(min-width:1200px){
+    .quantityNprice{
+        font-size: 16px;
+    }
+    .totalQuantityNprice{
+        font-size: 16px;
+    }
+}

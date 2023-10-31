@@ -17,17 +17,19 @@ export const productData = [
     {
         category: "Vegetable",
         imageSrc: cauliflower,
+        productImage:cauliflower,
         productName: "Calabrese Broccoli",
         price: "20.00",
         discountPrice: "13.00",
         rating: Star,
         productDescription: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
         productOverview: "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
-        additoinalInfo: "sdfsdf dsfadfa"
+        additoinalInfo: ""
     },
     {
         category: "Fresh",
         imageSrc: banana,
+        productImage: banana,
         productName: "Fresh Banana Fruites",
         price: "20.00",
         discountPrice: "14.00",
@@ -39,6 +41,7 @@ export const productData = [
     {
         category: "Millets",
         imageSrc: pista,
+        productImage: banana,
         productName: "White Nuts",
         price: "20.00",
         discountPrice: "15.00",
@@ -137,7 +140,7 @@ export const productData = [
     },
     {
         category: "Fresh",
-        imageSrc: almond,
+        imgSrc: almond,
         productName: "Organic Almond",
         price: "20.00",
         discountPrice: "15.00",
@@ -150,12 +153,16 @@ export const productData = [
 
  export const products=productData.slice(0,8);
  export const viewProducts=productData.slice(0,4);
-export type ProductType = {
+ export type ProductType = {
+    id?:string,
+    productImage?: string,
     category?: string,
     imageSrc: string,
     productName?: string,
     price?: string,
     discountPrice?: string,
-    rating?: String,
+    rating?: string,
+    productDescription ?:string,
+    productOverview?:string
 }
 

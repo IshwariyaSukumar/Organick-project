@@ -15,7 +15,7 @@ font-size: 38px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-top: 0px;
+margin-top: 7%;
 }
 
 @media (min-width:320px ){
@@ -23,6 +23,7 @@ margin-top: 0px;
  .title{
     font-size: 18px;
     font-weight: 300px;
+    margin-top:8% ;
  }
  .mainLogo{
     width: 15px;
@@ -36,6 +37,7 @@ margin-top: 0px;
       .title{
          font-size: 24px;
          font-weight: 500px;
+         margin-top: 3%;
       }
       .mainLogo{
          width: 20px;
@@ -49,6 +51,7 @@ margin-top: 0px;
       .title{
          font-size: 28px;
          font-weight: 600px;
+         margin-top: 4%;
       }
       .mainLogo{
          width: 25px;
@@ -59,8 +62,9 @@ margin-top: 0px;
 @media (min-width:992px){
     
       .title{
-         font-size: 34px;
+         font-size: 48px;
          font-weight: 700px;
+         margin-top: 6%;
       }
       .mainLogo{
          width: 33px;
@@ -74,6 +78,7 @@ margin-top: 0px;
       .title{
          font-size: 38px;
          font-weight: 700px;
+         margin-top: 7%;
       }
       .mainLogo{
          width: 36px;

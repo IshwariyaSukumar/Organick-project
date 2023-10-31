@@ -1,0 +1,143 @@
+.shopSingleCard{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.price{
+    display: flex;
+}
+.cartSection{
+    display: flex;
+}
+.additionalInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+.category{
+    background-color: #274C5B;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+.name{
+    color: #274C5B;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+.actualPrice{
+    color: grey;
+    text-decoration: line-through;
+    font-family: 'Open Sans';
+}
+.discountPrice,.quantity{
+    color: #274C5B;
+    font-weight: 800;
+    font-family: 'Open Sans';
+}
+.description,.overview{
+    color: #525C60;
+    font-family: 'Open Sans';
+}
+.cartBtn,.additionalInfoBtn{
+    background-color: #274C5B;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+}
+.cartBtn{
+    margin-left: 2%;
+}
+.quantityBtn{
+    background-color:white;
+    border:2px solid #274C5B;
+    margin-left: 1%;
+}
+
+
+
+@media(min-width:320px){
+    .shopSingleCard{
+        margin-left: 5%;
+    }
+   .productImg{
+    width: 150px;
+    height: 150px;
+   }
+  
+   .quantity,.price,.actualPrice,.category,.description,.overview{
+    font-size: 10px;
+   }
+   .category{
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+   }
+}
+
+
+@media(min-width:600px){
+    .shopSingleCard{
+        margin-left: 10%;
+    }
+    .productImg{
+     width: 180px;
+     height: 180px;
+    }
+   
+    .quantity,.price,.actualPrice,.category,.description,.overview{
+     font-size: 12px;
+    }
+    .category{
+     width: 80px;
+     height: 30px;
+     border-radius: 5px;
+    }
+ }
+
+
+
+ 
+@media(min-width:768px){
+    .productImg{
+     width: 200px;
+     height: 200px;
+    }
+   .name{
+    font-size: 20px;
+   }
+    .quantity,.price,.actualPrice,.category,.description,.overview{
+     font-size: 14px;
+    }
+    .category{
+     width: 90px;
+     height: 30px;
+     border-radius: 5px;
+    }
+ }
+
+
+
+ @media(min-width:1200px){
+    .productImg{
+     width: 300px;
+     height: 300px;
+    }
+   .name{
+    font-size: 24px;
+   }
+    .quantity,.price,.actualPrice,.category,.description,.overview{
+     font-size: 18px;
+    }
+    .category{
+     width: 100px;
+     height: 40px;
+     border-radius: 5px;
+    }
+ }
